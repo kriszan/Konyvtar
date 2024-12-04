@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".DetailsActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/kartyaCim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="wada"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/kartyaszerzo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kartyaCim"
+                android:text="fefef" />
+
+            <TextView
+                android:id="@+id/kartyaoldalszam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kartyaszerzo"
+                android:text="fafwf" />
+
+            <TextView
+                android:id="@+id/kartyaRandomszam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kartyaoldalszam"
+                android:text="fafwf" />
+
+            <Button
+                android:id="@+id/torolGomb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kartyaRandomszam"
+                android:text="Törlés" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/visszaGomb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vissza" />
+</LinearLayout>
